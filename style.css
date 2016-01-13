@@ -135,7 +135,6 @@ h2 {
 }
 
 
-
 /*=====================================================================
   FOOTER
   =====================================================================*/
@@ -144,7 +143,42 @@ h2 {
 	margin-top: 60px;
 }
 
+.project {
+	/*border: 1px solid red;*/
+	width: auto;
+	text-align: center;
+}
 
+.project-container {
+	/*border: 1px solid blue;*/
+}
+
+.text {
+	text-align: left;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 400px) {
+
+	.thumbnail img {
+		width: 350px;
+	}
+
+	.thumbnail {
+		display: inline-block;
+		/*margin-left: 5vw;*/
+	}
+
+	.text {
+	display: inline-block;
+	margin-left: 30px;
+	width: 350px;
+
+	/*border: 1px solid red;*/
+	/*margin-right: 5vw;*/
+	}
+
+}
 
 
 
