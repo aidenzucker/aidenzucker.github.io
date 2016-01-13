@@ -19,7 +19,7 @@ body {
 .header {
 	/*border: 1px solid red;*/
 	text-align: center;
-	padding: 30px 0px 60px 0px;
+	padding: 30px 0px 0px 0px;
 }
 
 .name {
@@ -67,6 +67,10 @@ nav div {
   PROJECT CONTAINERS
   =====================================================================*/
 
+.project {
+	margin-top: 60px;
+}
+
 .thumbnail img {
 	width: 85vw;
 	margin: 0 auto 0 auto;
@@ -86,8 +90,25 @@ h1 {
 
 /*EACH PROJECT HAS A DIFFERENT HOVER COLOR*/
 #p1 a:hover{
-	color: #349acf;
-}
+	color: #349acf; }
+
+#p2 a:hover{
+	color: #deac4a; }
+
+#p3 a:hover{
+	color: #666666;}
+
+#p4 a:hover{
+	color: #f3e521; }
+
+#p5 a:hover{
+	color: #55abed;}
+	
+#p6 a:hover{
+	color: #1287f9; }
+
+#p7 a:hover{
+	color: #aa0e19;}
 
 
 /*PROJECT TAGS*/
@@ -115,8 +136,13 @@ h2 {
 
 
 
+/*=====================================================================
+  FOOTER
+  =====================================================================*/
 
-
+.footer {
+	margin-top: 60px;
+}
 
 
 
