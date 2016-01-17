@@ -7,7 +7,7 @@
 
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	/*font-size: 18px;*/
 	padding: 0 20px 0 20px;
 	text-align: center;
 }
@@ -24,7 +24,7 @@ body {
 	display: inline-block;
 	margin: 0 -20px 0 0px;
 	text-align: left;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	width: 350px;
 }
 
@@ -48,17 +48,12 @@ nav a {
 	/*border: 1px solid red;*/
 }
 
-.work {
+#selected {
 	border-bottom: 2px solid black;
-    /*box-shadow: inset 0 2px 0 black;*/
 }
 
-.work a:hover {
-	/*border-bottom: 2px solid #33ccff;
-    box-shadow: inset 0 -12px 0 #33ccff;
-
-    -webkit-transition: background .5s cubic-bezier(.33,.66,.66,1);
-    transition: background .5s cubic-bezier(.33,.66,.66,1);*/
+.work a:hover{
+	border-bottom: 2px solid black;
 }
 
 .info a:hover{
@@ -66,7 +61,7 @@ nav a {
 }
 
 .espanol a:hover {
-	/*border-bottom: 2px solid rgba(100, 100, 100, .5);*/
+	color: rgba(100, 100, 100, .7);
 }
 
 .espanol a{
@@ -157,6 +152,76 @@ h2 {
 
 	margin: 15px 0 15px 0;
 }
+
+
+
+/*=====================================================================
+  ABOUT PAGE
+  =====================================================================*/
+
+.wrapper {
+	text-align: left;
+}
+
+.wrapper img{
+	width: 100%;
+}
+
+.list {
+	margin-top: 30px;
+	display: block;
+}
+
+.list-title{
+	font-size: 17px; /*But should be 15px when it gets bigger?*/
+	font-weight: 700;
+	border-bottom: 2px solid black;
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 15px;
+}
+
+li {
+	background: url("img/arrow.png") no-repeat left top;
+	background-size: 22px;
+	background-position: left center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 27px;
+
+	color: #808285;
+	margin-bottom: 10px; 
+	margin-left: -36px;
+
+	text-align: left;
+}
+
+li a:hover{
+	text-decoration: none;
+	color: blue;
+}
+
+li a{
+	border-bottom: 2px solid blue;
+	line-height: 22px;
+	text-decoration: none;
+	color: blue;
+}
+
+.colophon{
+	text-align: left;
+	color: #808285;
+	margin-top: 30px;
+}
+
+h5{
+	margin-top: 5px;
+	font-weight: 400;
+}
+
 
 
 /*=====================================================================
