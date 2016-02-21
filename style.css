@@ -103,6 +103,7 @@ h1 {
 	font-size: 22px;
 	margin: 15px 0 0px 0;
 	font-weight: 400;
+	text-align: left;
 }
 
 .project a {
@@ -160,6 +161,8 @@ h2 {
 	font-weight: 400;
 
 	margin: 15px 0 15px 0;
+
+	text-align: left;
 }
 
 
@@ -168,11 +171,17 @@ h2 {
   ABOUT PAGE
   =====================================================================*/
 
-.wrapper {
+.about-wrapper {
 	text-align: left;
+	padding: 15px 0px 10px 0px;
+	display: inline-block;
+	margin: 0 -20px 0 0px;
+	text-align: left;
+	font-size: 1.2em;
+	width: 350px;
 }
 
-.wrapper img{
+.about-wrapper img{
 	width: 100%;
 }
 
@@ -224,6 +233,7 @@ li a{
 	text-align: left;
 	color: #808285;
 	margin-top: 30px;
+	font-size: 15px;
 }
 
 h5{
@@ -265,6 +275,28 @@ h5{
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 640px) {
+
+
+	.about-wrapper h1{
+		font-size: 3.4vw;
+	}
+
+	.about-wrapper h2{
+		font-size: 1.9vw;
+		line-height: 2.8vw;
+	}
+
+	.list{
+		width: auto;
+		display: inline-block;
+		float: left;
+		margin-right: 35px;
+		font-size: 17px;
+	}
+
+	.colophon{
+		float: left;
+	}
 
 
 	h1 {
@@ -312,13 +344,15 @@ h5{
 	float: left;
 }
 
-.header {
+.header,.about-wrapper{
 	text-align: right;
 	width: 65vw;
 	font-size: 1.2em;
 	margin: 0 0 0 0;
 	display: inline-block;
 }
+
+
 
 .nav {
 	display: inline;
