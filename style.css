@@ -13,8 +13,12 @@ body {
 }
 
 .construction{
-	font-size: 8vw;
+	margin-top: 20px;
+	font-size: 3.9vw;
 	text-align: left;
+	line-height: 5.5vw;
+	/*color: blue;*/
+	font-weight: 700;
 }
 
 /*=====================================================================
