@@ -14,15 +14,18 @@ body {
 
 .construction{
 	margin-top: 20px;
-	font-size: 3.9vw;
+	padding: 15px;
+	font-size: 13px;
 	text-align: left;
-	line-height: 5.5vw;
-	/*color: blue;*/
-	font-weight: 700;
+	/*line-height: 2.5vw;*/
+	/*font-weight: 700;*/
+	color: white;
+	background-color: blue;
+
 }
 
 /*=====================================================================
-  HEADER W/ MY NAME AND NAV
+  HEADER W/ NAME AND NAV
   =====================================================================*/
 
 
