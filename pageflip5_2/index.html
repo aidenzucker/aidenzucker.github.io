@@ -1,46 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">   
-	 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Aiden Zucker — Start-Up Chile</title>
-		<meta name="description" content="Unifying the visual identity of the largest startup organization in the world: Start-Up Chile">
-  		<meta name="keywords" content="Start-Up Chile,Branding,Aiden,Zucker,Portfolio,Design">
- 		<meta name="author" content="Aiden Zucker">
-
-
-		<link rel="stylesheet" type="text/css" href="style.css">
-
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+		<title>Pageflip5 from PDF - Start-Up Chile Brand Manual</title>
+		<!-- start needed js libraries -->
 		<link type="text/css" rel="stylesheet" href="css/pageflip.css">	
 		<link type="text/css" rel="stylesheet" href="css/pageflip-custom.css">	
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>	
 		<script type="text/javascript" src="js/pageflip5-min.js"></script>
-
+		<!-- end needed js libraries -->
 	</head>
-
 	<body>
-		<div class="header">
-			<div class="name">
-				aiden zucker
-			</div>
-
-			<nav>
-				<div class="work"><a href="index.html">work</a></div>
-	  			<div class="info" id="selected"><a href="about.html">about</a></div>
-	  			<div class="espanol"><a href="https://www.youtube.com/watch?v=ubAv6ZmWxEk">español</a></div>
-			</nav>
-		</div>
-
-
-
-
-
-
-
-
-<!-- start embed pageflip -->
+		<!-- start embed pageflip -->
 		<div id="pageflip">
 			<div class='cover' data-background-file='pageflipdata/page0.jpg' data-thumbnail-image='pageflipdata/page0_th.jpg' data-page-label='t0'></div>
 			<div class='page' data-background-file='pageflipdata/page1.jpg' data-thumbnail-image='pageflipdata/page1_th.jpg' data-page-label='t1'></div>
@@ -278,16 +250,16 @@
 				PageHeight: 598,
 				Margin: 32,
 				MarginBottom: 64,
-				PerformanceAware: false,
+				PerformanceAware: true,
 				AutoScale: true,
 				FullScale: true,
-				HardCover: true,
+				HardCover: false,
 				HardPages: false,
 				RightToLeft: false,
 				VerticalMode: false,
 				AlwaysOpened: false,
 				AutoFlipEnabled: true,
-				StartAutoFlip: false,
+				StartAutoFlip: true,
 				AutoFlipLoop: -1,
 				DropShadow: true,
 				NoFlipShadow: false,
@@ -307,7 +279,8 @@
 				ThumbnailsHidden: true,
 				ThumbnailWidth: 96,
 				ThumbnailHeight: 120,
-				ThumbnailsToFront: true,
+				ThumbnailsToFront: false,
+				MarginTop: 152,
 				ThumbnailsAutoHide: 5000,
 				ShareLink: window.location.href,
 				ShareText: 'PDF to flipbook converter http://pageflip-books.com',
@@ -318,8 +291,8 @@
 				SinglePageMode: false,
 				ShowCopyright: false,
 				Copyright: '©2016 pageflip-books.com',
-				Key: 'MhuOPYA5FmbmDP/Oqa'
-			}, "sup-brand-manual_v3" );
+				Key: 'K0tNLIA4By3wkC$vnb'
+			}, "" );
 			var API = $pageflip.pageflip();
 			function p( n ) { API.gotoPageLabel( "t"+n, true ); }
 			function u( url ) { window.open( url ); }
@@ -327,21 +300,5 @@
 		<!-- end script needed to run pageflip -->
 		<!-- end embed pageflip -->
 		<div class="pageflip-credits">Powered by <a href="http://pageflip-books.com" target="_blank">Pageflip 5</a></div>
-
-
-
-
-
-
-
-
-		<div class="footer">
-			<nav>
-	  			<div class="info"><a href="about.html">->info</a></div>
-	  			<div class="espanol"><a href="espanol.html">->español</a></div>
-			</nav>
-		</div>
-
-
 	</body>
 </html>

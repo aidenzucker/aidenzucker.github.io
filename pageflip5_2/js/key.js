@@ -1,0 +1,1 @@
+﻿var Key = { Copyright: "©2016 Aiden Zucker", Key: "K0tNLEkPE90CYc6stUJdjgf"};
