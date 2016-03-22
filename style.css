@@ -4,6 +4,34 @@
   I HAVE NO IDEA WHAT I'M DOING! 
   =====================================================================*/
 
+.bio {
+	font-size: 14px;
+
+	max-width: 500px;
+	margin-top: 30px;
+	text-align: left;
+	line-height: 24px;
+}
+
+.bio a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid grey;
+}
+
+.bio a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.bio a:hover{
+	opacity: .7;
+}
+
+.bio .links a {
+	margin-right: 20px;
+}
+
 
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -11,6 +39,7 @@ body {
 	padding: 0 20px 0 20px;
 	text-align: center;
 }
+
 
 .construction{
 	margin-top: 20px;
