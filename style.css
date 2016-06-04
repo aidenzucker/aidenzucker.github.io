@@ -77,6 +77,11 @@ body {
 	/*color: rgba(0, 0, 0, .5);*/
 }
 
+.name a{
+	text-decoration: none;
+	color: black;
+}
+
 nav {
 	display: inline-block;
 }
@@ -122,12 +127,36 @@ nav div {
 
 .project {
 	margin-top: 60px;
+	padding-bottom: 70px;
 }
 
 .thumbnail img {
 	width: 85vw;
 	margin: 0 auto 0 auto;
 	display: block;
+}
+
+/*optically align text with thumbnail*/
+#p0 .thumbnail img{
+	margin-bottom: -5px;
+	width: 380px;
+}
+
+#p1 .thumbnail img{
+	margin-bottom: -80px;
+}
+
+#p2 .thumbnail img{
+	margin-bottom: -80px;
+	margin-top: -77px;
+}
+
+#p3 .thumbnail img{
+	margin-bottom: -80px;
+}
+
+#p4 .thumbnail img{
+	margin-bottom: -59px;
 }
 
 /*PROJECT TITLE*/
@@ -296,7 +325,18 @@ h5{
 
 .text {
 	text-align: left;
+	/*border: 1px solid red;*/
 }
+
+.thumbnail{
+	/*border: 1px solid red;*/
+}
+
+.pancake-img img{
+	width: 100vw;
+}
+
+
 
 /* Makes the menu responsive on tiny screens JUST IN CASE----------- */
 @media only screen  and (max-width : 330px) {
@@ -391,6 +431,8 @@ h5{
 	display: inline;
 	float: right;
 }
+
+
 
 /* Top menu for bigger screens----------- */
 @media only screen  and (min-width : 915px) {

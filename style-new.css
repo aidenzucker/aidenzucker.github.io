@@ -1,0 +1,102 @@
+/*=====================================================================
+  HI INTERNET FRIEND, THANKS FOR CHECKING OUT MY CODE.
+  LET ME KNOW IF THERE'S A BETTER WAY OF DOING SOMETHING! 
+  =====================================================================*/
+
+
+body {
+	font-family:'Roboto Mono', monospace, Helvetica, Arial, sans-serif;
+	margin: 0px;
+}
+
+
+.header {
+	padding: 50px 0px 10px 0px;
+	display: inline-block;
+	margin: 0 -20px 0 0px;
+	text-align: left;
+	font-size: 1.2em;
+	/*width: 350px;*/
+}
+
+.name {
+	font-weight: 700;
+	
+	position: fixed;
+	top: 50px;
+	left: 60px;
+	z-index: 2;
+}
+
+nav {
+	position: fixed;
+	top: 50px;
+	right: 60px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	/*border: 1px solid red;*/
+}
+
+nav div {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.info{
+	margin-right: 40px;
+}
+
+.info a:hover{
+	border-bottom: 2px solid black;
+}
+
+.espanol a:hover {
+	color: rgba(100, 100, 100, .7);
+}
+
+.espanol a{
+	margin: 0px;
+	color: rgba(100, 100, 100, .5);
+}
+
+/*Makes menu two-lines on mobile*/
+@media only screen  and (max-width : 430px) {
+	nav{
+		position: static;
+		display: block;
+		margin-left: 60px;
+		margin-top: 30px;
+	}
+}
+
+/*=====================================================================
+  PROJECTS
+  =====================================================================*/
+
+.projects-wrapper{
+	padding: 50px;
+}
+
+.project{
+    /*border: 1px solid red;*/
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.project-text, .project-text a{
+	color: rgba(0, 0, 0, 0);
+	-webkit-transition: color .5s;
+}
+
+#p1:hover #text1, #p1:hover #text1 a, #p2:hover #text2, #p2:hover #text2 a, #p3:hover #text3, #p3:hover #text3 a{
+	color: rgba(0, 0, 0, 1);
+	-webkit-transition: color .5s;
+}
+
+
+
