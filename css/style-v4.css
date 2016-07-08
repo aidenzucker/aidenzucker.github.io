@@ -1,0 +1,134 @@
+/*=====================================================================
+  HI INTERNET FRIEND, THANKS FOR CHECKING OUT MY CODE.
+  LET ME KNOW IF THERE'S A BETTER WAY OF DOING SOMETHING,
+  I HAVE NO IDEA WHAT I'M DOING! 
+  =====================================================================*/
+
+
+
+body {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 50px;
+	background: rgba(100, 100, 100, .18);
+}
+
+
+/*=====================================================================
+  HEADER W/ NAME AND NAV
+  =====================================================================*/
+
+.header {
+	/*border: 1px solid red;*/
+	/*text-align: center;*/
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.header div{
+	display: inline-block;
+}
+
+.name {
+	font-weight: 700;
+}
+
+.name a{
+	text-decoration: none;
+	color: black;
+}
+
+.espanol{
+	display: inline-block;
+	float: right;
+}
+
+.espanol a:hover {
+	color: rgba(100, 100, 100, .7);
+}
+
+.espanol a{
+	margin: 0px;
+	color: rgba(100, 100, 100, .5);
+	text-decoration: none;
+}
+
+.bio-link{
+	/*font-size: 20px;*/
+	border-bottom: 2px solid #1E7FA5;
+	text-decoration: none;
+	color: #1E7FA5;
+	margin-right: 20px;
+}
+
+/*=====================================================================
+  PROJECT THUMBNAILS
+  =====================================================================*/
+
+.info-card{
+	background-color: white;
+	display: inline-block;
+	padding: 13px 20px 13px 20px;
+	width: 300px;
+
+	line-height: 23px;
+
+	margin-top: 30px;
+}
+
+.project-title{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.project-date{
+	display: inline-block;
+	float: right;
+
+	font-family: 'Roboto Mono', monospace;
+}
+
+.project-description{
+	display: block;
+	color: grey;
+	font-size: 16px;
+}
+
+
+
+
+
+
+footer{
+	margin-top: 30px;
+}
+
+footer nav a{
+	color: rgba(100, 100, 100, .5);
+	font-weight: 400;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+footer nav a:hover{
+	color: rgba(100, 100, 100, .8);
+}
+
+
+/* Makes the menu responsive on tiny screens JUST IN CASE----------- */
+@media only screen  and (max-width : 330px) {
+	
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 640px) {
+
+}
+
+
+
+
