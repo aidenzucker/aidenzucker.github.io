@@ -16,6 +16,7 @@ Started coding July 8th, 2016 in New York Public Library.
 	    <meta name="author" content="Aiden Zucker">
 
 		<link rel="stylesheet" type="text/css" href="../css/style-v4.css">
+		
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,700" rel="stylesheet">
 
@@ -41,14 +42,27 @@ Started coding July 8th, 2016 in New York Public Library.
   			<div class="espanol"><a href="https://www.google.com/search?q=pr%C3%B3ximamente&biw=1440&bih=747&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi44bLSwOnLAhXKuIMKHR6OCUoQ_AUIBigB" target="_blank">Español</a></div>
 		</div>
 
+
+		<div class="accordian">
+		<section class="open">
+			<header>
+				Section One
+			</header>
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</section>
+
+
 		<div class="intro-text">
-			Hi, I'm an graphic/interaction designer from California. <a href="bio" class="bio-link">See more</a>
-			<br><br>
-			<a href="scroll-down" class="bio-link"><img alt="arrow" src="../img/arrow.png">Work</a>
-			<a href="scroll-down" class="bio-link">Resume</a>
-			<a href="scroll-down" class="bio-link">Email</a>
-			<a href="scroll-down" class="bio-link"><img alt="Instagram" src="../img/instagram-icon.png"></a>
-			<a href="scroll-down" class="bio-link"><img alt="Twitter" src="../img/twiter-icon.png"></a>
+			Hi, I'm an graphic/interaction designer from California. <a href="#" class="bio-link" id="see-more">See more</a>
+		</div>
+		<div class="intro-link-container">
+			<a href="scroll-down" class="bio-link"><img alt="arrow" src="../img/down-arrow.png">Work</a>
+			<a href="scroll-down" target="_blank" class="bio-link">Resume</a>
+			<a href="mailto:aidenzucker@gmail.com" target="_blank" class="bio-link">Email</a>
+			<a href="https://www.instagram.com/aidenzucker/" target="_blank" class="icon"><img alt="Instagram" src="../img/instagram-icon.png"></a>
+			<a href="https://twitter.com/AidenZucker" target="_blank" class="icon"><img alt="Twitter" src="../img/twitter-icon.png"></a>
 		</div>
 
 		<div class="projects-container">
@@ -60,7 +74,38 @@ Started coding July 8th, 2016 in New York Public Library.
 					<div class="project-date">2016</div>
 					<div class="project-description">Experimental website and tool for thinking about serendipity in a new way</div>
 				</div>
+
+				<a href="serendipity" class="thumbnail-container">
+					<img alt="serendipity-rendering" src="../work/serendipity/rendering-gallery-1200.jpg">
+				</a>
 			</div>
+
+			<!-- START-UP CHILE -->
+			<div class="project" id="p2">
+				<div class="info-card">
+					<div class="project-title">Brand Manual for<br>Start-Up Chile</div>
+					<div class="project-date">2015</div>
+					<div class="project-description">Heavily-researched set of bilingual design guidelines and tools</div>
+				</div>
+			</div>
+
+			<!-- WWYTFAP -->
+			<div class="project" id="p3">
+				<div class="info-card">
+					<div class="project-title">What Would You Trade<br>For A Pancake?</div>
+					<div class="project-date">2016</div>
+					<div class="project-description">A delicious exchange system designed to take people out of their daily routine</div>
+				</div>
+			</div>
+
+			<!-- Poetics of Space -->
+			<!-- <div class="project" id="p3">
+				<div class="info-card">
+					<div class="project-title">What Would You Trade For A Pancake?</div>
+					<div class="project-date">2016</div>
+					<div class="project-description">A delicious exchange system designed to take people out of their daily routine</div>
+				</div>
+			</div> -->
 
 
 
@@ -75,8 +120,11 @@ Started coding July 8th, 2016 in New York Public Library.
 			</nav>
 		</footer>
 
+	
 
-
-
+	<script src="../js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../js/main.js"></script>
+	<script type="text/javascript" src="../js/abes-way.js"></script>
 	</body>
+
 </html>

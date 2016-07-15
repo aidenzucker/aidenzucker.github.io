@@ -9,8 +9,9 @@
 body {
 	font-family: 'Roboto', Helvetica, sans-serif;
 	font-size: 18px;
-	padding: 50px;
+	padding: 3vw;
 	background: rgba(100, 100, 100, .18);
+	margin: 0px;
 }
 
 
@@ -55,47 +56,120 @@ body {
 	text-decoration: none;
 }
 
+.intro-link-container{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.intro-link-container a:hover{
+	opacity: .7;
+}
+
 .bio-link{
 	/*font-size: 20px;*/
-	border-bottom: 2px solid #1E7FA5;
+	border-bottom: 2px solid #3490C5;
 	text-decoration: none;
-	color: #1E7FA5;
+	color: #3490C5;
+	margin-right: 20px;
+	position: relative;
+}
+
+.bio-link img{
+	height: 17px;
+    left: -22px;
+    bottom: -3px;
+    position: absolute;
+}
+
+.icon{
 	margin-right: 20px;
 }
+
+.icon img{
+	height: 20px;
+	margin-bottom: -4px;
+}
+
+
+
+
 
 /*=====================================================================
   PROJECT THUMBNAILS
   =====================================================================*/
 
+.project{
+	border: 1px solid red;
+	position: relative;
+	margin-top: 40px;
+}
+
+.thumbnail-container img{
+	max-width: 45.5vw; /*Because 3vw margin on each side*/
+}
+
 .info-card{
 	background-color: white;
 	display: inline-block;
 	padding: 13px 20px 13px 20px;
-	width: 300px;
-
+	width: 284px;
 	line-height: 23px;
-
 	margin-top: 30px;
+
+	position: absolute;
+	left: -20px;
+	top: 0px;
+
+	/*	Drop shadow*/
+	/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+
+	box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 1px 6px rgba(0,0,0,0.2);
+
+
 }
 
 .project-title{
 	display: inline-block;
 	font-size: 20px;
 	font-weight: 700;
+	margin-bottom: 4px;
 }
 
 .project-date{
 	display: inline-block;
 	float: right;
+	font-size: 16px;
+	color: #939393;
 
 	font-family: 'Roboto Mono', monospace;
 }
 
 .project-description{
 	display: block;
-	color: grey;
+	color: #a8a8a8;
 	font-size: 16px;
 }
+
+
+
+
+.accordian section header {
+	background-color: #eee;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	/*margin-top: 20px;*/
+}
+
+.accordian section>div {
+	display: none;
+}
+
+.accordian section.open>div{
+	display: block;
+}
+
+
 
 
 
