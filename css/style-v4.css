@@ -41,6 +41,10 @@ body {
 	color: black;
 }
 
+.more {
+	display: none;
+}
+
 .espanol{
 	display: inline-block;
 	float: right;
