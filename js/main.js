@@ -12,3 +12,8 @@ function whenDocumentIsReady() {
 
 $(document).ready(whenDocumentIsReady);
 
+
+// Animate scroll when you click "Work"
+$(document).ready(function() {
+   $('#projects-container').localScroll({duration:800});
+});

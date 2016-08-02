@@ -8,9 +8,9 @@
 
 body {
 	font-family: 'Roboto', Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 15.5px;
 	padding: 3vw;
-	background: rgba(100, 100, 100, .18);
+	/*background: rgba(100, 100, 100, .18);*/
 	margin: 0px;
 }
 
@@ -25,7 +25,7 @@ body {
 	display: inline-block;
 	text-align: left;
 	width: 100%;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .header div{
@@ -34,15 +34,12 @@ body {
 
 .name {
 	font-weight: 700;
+	font-size: 22px;
 }
 
 .name a{
 	text-decoration: none;
 	color: black;
-}
-
-.more {
-	display: none;
 }
 
 .espanol{
@@ -60,6 +57,9 @@ body {
 	text-decoration: none;
 }
 
+
+
+
 .intro-link-container{
 	margin-top: 20px;
 	margin-left: 20px;
@@ -67,6 +67,19 @@ body {
 
 .intro-link-container a:hover{
 	opacity: .7;
+}
+
+.more {
+	display: none;
+	line-height: 21px;
+}
+
+.small-caps{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    color: grey;
 }
 
 .bio-link{
@@ -79,9 +92,9 @@ body {
 }
 
 .bio-link img{
-	height: 17px;
-    left: -22px;
-    bottom: -3px;
+	height: 15px;
+    left: -20px;
+    bottom: -5px;
     position: absolute;
 }
 
@@ -115,9 +128,9 @@ body {
 .info-card{
 	background-color: white;
 	display: inline-block;
-	padding: 13px 20px 13px 20px;
-	width: 284px;
-	line-height: 23px;
+	padding: 12px 16px 12px 16px;
+	width: 268px;
+	line-height: 20px;
 	margin-top: 30px;
 
 	position: absolute;
@@ -134,7 +147,7 @@ body {
 
 .project-title{
 	display: inline-block;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 4px;
 }
@@ -142,7 +155,7 @@ body {
 .project-date{
 	display: inline-block;
 	float: right;
-	font-size: 16px;
+	font-size: 15px;
 	color: #939393;
 
 	font-family: 'Roboto Mono', monospace;
@@ -151,34 +164,8 @@ body {
 .project-description{
 	display: block;
 	color: #a8a8a8;
-	font-size: 16px;
+	font-size: 15px;
 }
-
-
-
-
-.accordian section header {
-	background-color: #eee;
-	padding: 10px;
-	text-align: center;
-	text-transform: uppercase;
-	/*margin-top: 20px;*/
-}
-
-.accordian section>div {
-	display: none;
-}
-
-.accordian section.open>div{
-	display: block;
-}
-
-
-
-
-
-
-
 
 footer{
 	margin-top: 30px;
