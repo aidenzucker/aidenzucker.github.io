@@ -115,14 +115,42 @@ body {
   PROJECT THUMBNAILS
   =====================================================================*/
 
-.project{
-	border: 1px solid red;
-	position: relative;
-	margin-top: 40px;
+.project-row{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+	width: 94vw;
 }
 
-.thumbnail-container img{
-	max-width: 45.5vw; /*Because 3vw margin on each side*/
+.project-row > div {
+	width: 50%;
+	/*padding: 10px;*/
+}
+
+.project-row > div:first-child {
+	margin-right: 20px;
+}
+
+.project{
+	/*border: 1px solid red;*/
+	position: relative;
+	margin-top: 40px;
+	display: inline-block;
+	/*padding: 10px;*/
+}
+
+.thumbnail-wrapper{
+	/*border: 1px solid blue;*/
+	display: inline-block;
+}
+
+.thumbnail img{
+	max-width: 100%;
+	display: inline-block;
+}
+
+.thumbnail {
+	display: inline-block;
 }
 
 .info-card{
