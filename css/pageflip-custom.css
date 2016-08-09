@@ -7,31 +7,30 @@ body {
 #b-pinterest,
 #b-facebook,
 #b-twitter,
-#b-google {
+#b-google,
+#b-thumbs,
+#b-play {
 	display: none;
 }
-/*#pf-stage {
-	background: #444444;
-}*/
 .pf-left-side,
 .pf-right-side,
 .pf-thumbnail-spread,
 .pf-thumbnail-page {
 	background: #888;
 }
-/*#pageflip-controls,
+#pageflip-controls,
 #pf-pagerin {
 	color: rgba(255,255,255,0.5);
-}*/
-/*.pf-control-bar-button g,
+}
+.pf-control-bar-button g,
 .pf-control-bar-pager g {
-	fill: rgba(255,255,255,1);
-}*/
+	fill: rgba(255,255,255,0.5);
+}
 .pf-control-bar-button:not(.pf-disabled):hover g {
 	fill: #FFAA00;
 }
 #pageflip-controls {
-	background: rgba(68,68,68,0);
+	background: rgba(68,68,68,0.35);
 }
 .pf-hotspot {
 	position: absolute;
