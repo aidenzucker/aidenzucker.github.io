@@ -27,8 +27,17 @@ $(document).ready(function() {
       if (e.pageX > x0 && e.pageX < x1 && e.pageY > y0 && e.pageY < y1) {
         $('#card-1').css({
           display: 'block',
+          //for cursor: none
           left: e.pageX - 200,
           top: e.pageY- 250
+
+          //for cursor: pointer
+          //left: e.pageX - 30,
+          //top: e.pageY - 190
+
+          //for cursor: url(custom)
+          // left: e.pageX,
+          // top: e.pageY - 160
         });
       }
       else {
@@ -73,6 +82,26 @@ $(document).ready(function() {
       }
       else {
         $('#card-3').css('display', 'none');
+      }
+    });
+  });
+
+   // Poetics of Space --> Project 4
+   $('#p4').mouseover(function(e) {
+    var x0 = $('#p4').offset().left;
+    var x1 = x0 + $('#p4').width();
+    var y0 = $('#p4').offset().top;
+    var y1 = y0 + $('#p4').height();
+    $('#p4').mousemove(function(e) {
+      if (e.pageX > x0 && e.pageX < x1 && e.pageY > y0 && e.pageY < y1) {
+        $('#card-4').css({
+          display: 'block',
+          left: e.pageX - 950,
+          top: e.pageY - 800
+        });
+      }
+      else {
+        $('#card-4').css('display', 'none');
       }
     });
   });
