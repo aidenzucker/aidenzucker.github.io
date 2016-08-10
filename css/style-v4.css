@@ -23,9 +23,9 @@ body {
 	/*border: 1px solid red;*/
 	/*text-align: center;*/
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	width: 100%;
-	margin-bottom: 10px;
+	/*margin-bottom: 3px;*/
 }
 
 .header div{
@@ -34,7 +34,7 @@ body {
 
 .name {
 	font-weight: 700;
-	font-size: 22px;
+	font-size: 17.5px;
 }
 
 .name a{
@@ -57,12 +57,16 @@ body {
 	text-decoration: none;
 }
 
-
+.intro-text{
+	text-align: center;
+	color: #a8a8a8;
+}
 
 
 .intro-link-container{
 	margin-top: 20px;
 	margin-left: 20px;
+	text-align: center;
 }
 
 .intro-link-container a:hover{

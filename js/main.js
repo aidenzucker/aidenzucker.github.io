@@ -1,10 +1,10 @@
 function whenDocumentIsReady() {
   function showMore () {
     $('.more').slideToggle();
-    if ($('#see-more').html() ==='See more') {
-      $('#see-more').html('See less');
+    if ($('#see-more').html() ==='What else?') {
+      $('#see-more').html('Okay cool');
     } else {
-      $('#see-more').html('See more');
+      $('#see-more').html('What else?');
     }
   }
   $('#see-more').on('click', showMore);
