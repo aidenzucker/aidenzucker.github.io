@@ -26,11 +26,7 @@ body {
 	text-align: center;
 	width: 100%;
 	margin-top: 3vw;
-	/*margin-bottom: 3px;*/
-}
-
-.header div{
-	display: inline-block;
+	position: relative;
 }
 
 .globe{
@@ -45,6 +41,7 @@ body {
 .name {
 	font-weight: 700;
 	font-size: 17.5px;
+	display: block;
 }
 
 .name a{
@@ -54,7 +51,9 @@ body {
 
 .espanol{
 	display: inline-block;
-	float: right;
+	position: absolute;
+	right: 0px;
+	top: 0px;
 	margin-right: 3vw;
 }
 
@@ -250,8 +249,26 @@ footer nav a:hover{
 	margin: 3vw;
 }
 
+.nav-bar a{
+	text-decoration: none;
+	color: black;
+	opacity: .3;
+}
+
+.nav-bar img{
+	margin-bottom: -2px;
+}
+
 .previous-project{
 	float: left;
+}
+
+.all-projects img{
+	margin-right: 1px;
+}
+
+.all-projects{
+	margin-right: 30px;
 }
 
 .next-project{
@@ -262,20 +279,27 @@ footer nav a:hover{
 	text-align: center;
 }
 
-.cover-photo{
-
+.cover-photo img{
+	max-width: 94vw;
 }
 
 .project-name{
 	font-weight: 700;
 	font-size: 36px;
-	color: #DAB83F;
 	letter-spacing: 4.65px;
+	text-transform: uppercase;
+	color: grey;
+	font-family: 'Roboto Mono';
+}
+
+#pancakes-color{
+	color: #DAB83F;
 }
 
 .project-blurb{
 	font-size: 51px;
-	max-width: 900px;
+	max-width: 905px;
+
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -306,7 +330,7 @@ footer nav a:hover{
 }
 
 .centered-image{
-
+	margin: 50px;
 }
 
 .full-screen-image img{
@@ -319,7 +343,6 @@ footer nav a:hover{
 	display: flex;
 	padding: 50px;
 }
-
 
 .two-images > img {
 	width: 50%;
@@ -350,6 +373,14 @@ footer nav a:hover{
 .big-link:hover{
 	opacity: .8;
 }
+
+/*FOR SERENDIPITY.HOW*/
+
+.three-across img{
+	max-width: 900px;
+	margin: 50px;
+}
+
 
 /* Makes the menu responsive on tiny screens JUST IN CASE----------- */
 @media only screen  and (max-width : 330px) {
