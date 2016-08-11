@@ -8,6 +8,7 @@
 
 body {
 	font-family: 'Roboto', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
 	font-size: 15.5px;
 	/*padding: 3vw;*/
 	/*background: rgba(100, 100, 100, .18);*/
@@ -285,35 +286,58 @@ footer nav a:hover{
 
 .project-name{
 	font-weight: 700;
-	font-size: 36px;
-	letter-spacing: 4.65px;
-	text-transform: uppercase;
-	color: grey;
-	font-family: 'Roboto Mono';
+    font-size: 21px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: lightgrey;
+    margin-top: 50px;
+	/*font-family: 'Roboto Mono';*/
 }
 
 #pancakes-color{
 	color: #DAB83F;
 }
 
+#serendipity-color{
+	color: #1B53C2;
+}
+
 .project-blurb{
-	font-size: 51px;
-	max-width: 905px;
+	font-size: 38px;
+    max-width: 700px;
+    font-weight: 300;
+    margin-bottom: 80px;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.project-question{
+	background-color: #1B53C2;
+	width: 400px;
+	padding: 25px;
+
+	font-size: 20px;
+	color: white;
 
 	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    /*margin-bottom: 50px;*/
 }
 
 .mono-subtitle{
 	font-family: 'Roboto Mono';
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 17px;
 	color: #8D8D8D;
 	letter-spacing: 2.58px;
-	margin-bottom: -50px;
-	margin-top: 50px;
+	color: white;
+	opacity: .4;
 }
 
 .project-body{
@@ -329,8 +353,17 @@ footer nav a:hover{
 	margin-bottom: 50px;
 }
 
+.project-body ul{
+	text-align: left;
+    margin-left: 43px;
+}
+
 .centered-image{
-	margin: 50px;
+	padding: 50px;
+}
+
+.centered-image img{
+	max-width: 94vw;
 }
 
 .full-screen-image img{
@@ -355,6 +388,7 @@ footer nav a:hover{
 
 .big-link{
 	margin-bottom: 80px;
+	padding-top: 50px;
 }
 
 .big-link a{
@@ -363,6 +397,7 @@ footer nav a:hover{
 	text-decoration: none;
 	padding-bottom: 1px;
 	border-bottom: 4px solid black;
+	color: black;
 }
 
 #pancakes a{
@@ -381,6 +416,30 @@ footer nav a:hover{
 	margin: 50px;
 }
 
+.juxtagraph-circle{
+	/*border: 1px solid red;*/
+	position: relative;
+}
+
+.juxtagraph-circle img{
+	max-width: 60vw;
+}
+
+.juxtagraph-circle .big-link{
+	position: absolute;
+	vertical-align: middle;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 28%;
+    /*margin-bottom: 0;*/
+
+    padding: 0px;
+}
 
 /* Makes the menu responsive on tiny screens JUST IN CASE----------- */
 @media only screen  and (max-width : 330px) {
