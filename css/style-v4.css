@@ -66,11 +66,22 @@ body {
 	text-decoration: none;
 }
 
-.intro-text{
+.intro-text-wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 	text-align: center;
+	display: block;
+}
+
+.intro-text{
+	text-align: left;
 	color: #a8a8a8;
 	padding-left: 20px;
     padding-right: 20px;
+    display: inline-block;
+    width: 491px;
 }
 
 
@@ -215,6 +226,21 @@ body {
 
 	/*good*/
 	/*box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 1px 6px rgba(0,0,0,0.2);*/
+
+	border: solid 1px black;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 1px 6px rgba(0,0,0,0.2);
+}
+
+.info-card-mobile{
+	background-color: white;
+	display: none;
+	padding: 10px 13px 10px 13px;
+	width: 268px;
+	margin-top: 30px;
+	line-height: 20px;
+	position: absolute;
+	z-index: 100;
+	cursor: none;
 
 	border: solid 1px black;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 1px 6px rgba(0,0,0,0.2);
@@ -529,7 +555,20 @@ footer nav a:hover{
 		display: none;
 	}
 
-	.info-card{
+	/*.info-card{
+		display: inline-block;
+		text-align: left;
+		left: 0px;
+		bottom: -80px;
+		top: auto;
+
+		margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}*/
+
+	.info-card-mobile{
 		display: inline-block;
 		text-align: left;
 		left: 0px;
