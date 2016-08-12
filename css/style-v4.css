@@ -26,7 +26,7 @@ body {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
-	margin-top: 3vw;
+	margin-top: 20px;
 	position: relative;
 }
 
@@ -71,6 +71,8 @@ body {
 .intro-text{
 	text-align: center;
 	color: #a8a8a8;
+	padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -234,14 +236,19 @@ body {
 }
 
 footer{
-	margin-top: 30px;
+	/*margin-top: 30px;*/
+	text-align: center;
+	padding: 15px;
+	padding-top: 30px;
+	font-size: 13px;
+	color: rgba(100, 100, 100, .5);
 }
 
 footer nav a{
 	color: rgba(100, 100, 100, .5);
 	font-weight: 400;
 	text-decoration: none;
-	margin-right: 20px;
+	border-bottom: 1px solid rgba(100, 100, 100, .3);
 }
 
 footer nav a:hover{
@@ -462,16 +469,55 @@ footer nav a:hover{
 }
 
 /* Makes the menu responsive on tiny screens JUST IN CASE----------- */
-@media only screen  and (max-width : 330px) {
-	
+@media only screen  and (max-width : 800px) {
+	.intro-link-container {
+    	margin-left: 33px;
+	}
+
+
+
+	.project-row{
+		-ms-flex-direction: column;
+	    -webkit-box-orient: vertical;
+	    flex-direction: column; 
+	}
+
+	.project-row > div {
+		width: 100%;
+		text-align: center;
+	}
+
+	#p1{
+		padding-right: 0px;
+	}
+
+	#p2{
+		padding-left: 0px;
+	}
+
+	.espanol{
+		display: none;
+	}	
+
+	.info-card{
+		display: inline-block;
+		text-align: left;
+		left: 0px;
+		bottom: -80px;
+		top: auto;
+
+		margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	}
+
+	.project{
+		margin-bottom: 85px;
+	}
+
+
 }
-
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 640px) {
-
-}
-
 
 
 

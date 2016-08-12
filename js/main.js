@@ -10,12 +10,23 @@ function whenDocumentIsReady() {
   $('#see-more').on('click', showMore);
 }
 
+//returns true if window width is under 800px
+function detectmob() {
+   if(window.innerWidth <= 800) {
+     return true;
+   } else {
+     return false;
+   }
+}
+
 $(document).ready(whenDocumentIsReady);
 
 
 // Animate scroll when you click "Work"
 $(document).ready(function() {
    $('#projects-container').localScroll({duration:800});
+
+   if(!detectmob()){
 
    // Serendipity.how --> Project 1
    $('#p1').mouseover(function(e) {
@@ -105,6 +116,7 @@ $(document).ready(function() {
       }
     });
   });
-
-
+}
 });
+
+
