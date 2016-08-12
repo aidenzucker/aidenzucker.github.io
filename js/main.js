@@ -26,97 +26,56 @@ $(document).ready(whenDocumentIsReady);
 $(document).ready(function() {
    $('#projects-container').localScroll({duration:800});
 
-   if(!detectmob()){
+  if(!detectmob()){
 
-   // Serendipity.how --> Project 1
-   $('#p1').mouseover(function(e) {
-    var x0 = $('#p1').offset().left;
-    var x1 = x0 + $('#p1').width();
-    var y0 = $('#p1').offset().top;
-    var y1 = y0 + $('#p1').height();
-    $('#p1').mousemove(function(e) {
-      if (e.pageX > x0 && e.pageX < x1 && e.pageY > y0 && e.pageY < y1) {
-        $('#card-1').css({
-          display: 'block',
-          //for cursor: none
-          left: e.pageX - 200,
-          top: e.pageY- 250
+    var container = $('.project-container');
+    var p1 = $('#p1');
+    var p2 = $('#p2');
+    var p3 = $('#p3');
+    var p4 = $('#p4');
+    var card = $('.info-card');
+    var title = $('.project-title');
+    var date = $('.project-date');
+    var desc = $('.project-description');
 
-          //for cursor: pointer
-          //left: e.pageX - 30,
-          //top: e.pageY - 190
-
-          //for cursor: url(custom)
-          // left: e.pageX,
-          // top: e.pageY - 160
+    container.mouseenter(function() {
+      container.mousemove(function(e) {
+        card.css({
+          display: 'inline-block',
+          left: e.pageX - (card.width() / 2),
+          top: e.pageY + 2
         });
-      }
-      else {
-        $('#card-1').css('display', 'none');
-      }
-    });
-  });
 
-   // Start Up Chile --> Project 2
-   $('#p2').mouseover(function(e) {
-    var x0 = $('#p2').offset().left;
-    var x1 = x0 + $('#p2').width();
-    var y0 = $('#p2').offset().top;
-    var y1 = y0 + $('#p2').height();
-    $('#p2').mousemove(function(e) {
-      if (e.pageX > x0 && e.pageX < x1 && e.pageY > y0 && e.pageY < y1) {
-        $('#card-2').css({
-          display: 'block',
-          left: e.pageX - 950,
-          top: e.pageY - 250
+        p1.mouseover(function() {
+          title.html('serendipity.how');
+          date.html('2016');
+          desc.html('Experimental website and tool for thinking about serendipity in a new way');
         });
-      }
-      else {
-        $('#card-2').css('display', 'none');
-      }
-    });
-  });
 
-   // WWYTFAP --> Project 3
-   $('#p3').mouseover(function(e) {
-    var x0 = $('#p3').offset().left;
-    var x1 = x0 + $('#p3').width();
-    var y0 = $('#p3').offset().top;
-    var y1 = y0 + $('#p3').height();
-    $('#p3').mousemove(function(e) {
-      if (e.pageX > x0 && e.pageX < x1 && e.pageY > y0 && e.pageY < y1) {
-        $('#card-3').css({
-          display: 'block',
-          left: e.pageX - 200,
-          top: e.pageY - 800
+        p2.mouseover(function() {
+          title.html('Brand Manual for<br>Start-Up Chile');
+          date.html('2015');
+          desc.html('Heavily-researched set of bilingual design guidelines and tools');
         });
-      }
-      else {
-        $('#card-3').css('display', 'none');
-      }
-    });
-  });
 
-   // Poetics of Space --> Project 4
-   $('#p4').mouseover(function(e) {
-    var x0 = $('#p4').offset().left;
-    var x1 = x0 + $('#p4').width();
-    var y0 = $('#p4').offset().top;
-    var y1 = y0 + $('#p4').height();
-    $('#p4').mousemove(function(e) {
-      if (e.pageX > x0 && e.pageX < x1 && e.pageY > y0 && e.pageY < y1) {
-        $('#card-4').css({
-          display: 'block',
-          left: e.pageX - 950,
-          top: e.pageY - 800
+        p3.mouseover(function() {
+          title.html('What Would You Trade<br>For A Pancake?');
+          date.html('2016');
+          desc.html('A delicious exchange system designed to take people out of their daily routine');
         });
-      }
-      else {
-        $('#card-4').css('display', 'none');
-      }
+
+        p4.mouseover(function() {
+          title.html('Poetics of Space');
+          date.html('2015');
+          desc.html('Interdisciplinary book that juxtaposes Hiroshi Sugimoto & Gaston Bachelard');
+        });
+      });
     });
-  });
-}
+
+    container.mouseleave(function() {
+      card.css('display', 'none');
+    })
+  }
 });
 
 
