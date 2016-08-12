@@ -265,6 +265,12 @@ footer nav a:hover{
 	margin: 3vw;
 }
 
+.nav-bar p{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;	
+}
+
 .nav-bar a{
 	text-decoration: none;
 	color: black;
@@ -331,8 +337,8 @@ footer nav a:hover{
     font-weight: 300;
     margin-bottom: 80px;
 
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25px;
+    margin-right: 25px;
     left: 0;
     right: 0;
 }
@@ -374,6 +380,9 @@ footer nav a:hover{
 
 	margin-top: 50px;
 	margin-bottom: 50px;
+
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .project-body p{
@@ -516,7 +525,73 @@ footer nav a:hover{
 		margin-bottom: 85px;
 	}
 
+	/*==============================
+	SERENDIPITY
+	================================*/
 
+	.nav-bar p{
+		display: none;
+	}
+
+	.all-projects{
+		margin-right: 0px;
+	}
+
+	.project-name{
+		font-size: 17px;
+	}
+
+	.project-blurb{
+		font-size: 23px;
+	}
+
+	.project-question{
+		font-size: 18px;
+		width: auto;
+	}
+
+	.mono-subtitle{
+		font-size: 15px;
+	}
+
+	.centered-image{
+		padding: 0px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.big-link{
+		margin-bottom: 50px;
+	}
+
+	.big-link a{
+		font-size: 32px;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	.project-body{
+		font-size: 17px;
+	}
+
+	.project-body ul {
+	    text-align: left;
+	    margin-left: 0px;
+	}
+
+	.juxtagraph-circle img{
+		max-width: 96vw;
+		margin-bottom: 30px;
+	}
+
+	.juxtagraph-circle .big-link{
+		margin-top: 45%;
+	}
+
+	.juxtagraph-circle .big-link a{
+		font-size: 20px;
+		border-bottom: 2px solid black;
+	}
 }
 
 
