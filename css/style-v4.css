@@ -80,6 +80,10 @@ body {
 	text-align: center;
 }
 
+.intro-link-container a{
+	text-decoration: none;
+}
+
 .intro-link-container a:hover{
 	opacity: .7;
 }
@@ -99,7 +103,7 @@ body {
 
 .bio-link{
 	/*font-size: 20px;*/
-	border-bottom: 2px solid #3490C5;
+	border-bottom: 1px solid #3490C5;
 	text-decoration: none;
 	color: #3490C5;
 	margin-right: 20px;
@@ -118,8 +122,12 @@ body {
 }
 
 .icon img{
-	height: 20px;
-	margin-bottom: -4px;
+	width: 18px;
+    margin-bottom: -5px;
+}
+
+#instagram img{
+	width: 17px;
 }
 
 
@@ -302,9 +310,17 @@ footer nav a:hover{
 	color: #1B53C2;
 }
 
+#start-up-chile-color{
+	color: #3490C5;
+}
+
+#start-up-chile-background{
+	background-color: #3490C5;
+}
+
 .project-blurb{
 	font-size: 38px;
-    max-width: 700px;
+    max-width: 670px;
     font-weight: 300;
     margin-bottom: 80px;
 
@@ -341,7 +357,7 @@ footer nav a:hover{
 }
 
 .project-body{
-	font-size: 24px;
+	font-size: 22px;
 	max-width: 600px;
 
 	margin-left: auto;
@@ -351,6 +367,10 @@ footer nav a:hover{
 
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.project-body p{
+	padding-bottom: 14px;
 }
 
 .project-body ul{
