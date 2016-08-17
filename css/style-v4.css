@@ -82,7 +82,9 @@ body {
     padding-right: 20px;
     display: inline-block;
     width: 491px;
+    word-wrap : break-word;
 }
+
 
 
 .intro-link-container{
@@ -96,6 +98,12 @@ body {
 	text-decoration: none;
 }
 
+.intro-link-container p{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
 .intro-link-container a:hover{
 	opacity: .7;
 }
@@ -103,14 +111,64 @@ body {
 .more {
 	display: none;
 	line-height: 21px;
+	width: 100vw;
+	display: absolute;
+
+	color: #a8a8a8;
+    margin-top: 25px;
+}
+
+.flex-container{
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+
+	width: 800px;
+
+	margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.flex-container > div {
+	/*border: 1px solid red;*/
+	padding-right: 32px;
+}
+
+.flex-container > div:first-child {
+    padding-right: 25px;
+    padding-left: 130px;
+}
+
+
+.bonus-section{
+	text-align: left;
+}
+
+.bonus-section img{
+	width: 155px;
+	margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.bonus-section ul{
+	margin: 0px;
+	padding-left: 20px;
 }
 
 .small-caps{
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    font-weight: 700;
+    /*text-transform: uppercase;
+    letter-spacing: 1px;*/
+    /*font-size: 14px;*/
+    /*font-weight: 400;*/
     color: grey;
+}
+
+.intro-text strong{
+	font-weight: 300;
 }
 
 .bio-link{
@@ -271,7 +329,7 @@ footer{
 	/*margin-top: 30px;*/
 	text-align: center;
 	padding: 15px;
-	padding-top: 30px;
+	padding-top: 0px;
 	font-size: 13px;
 	color: rgba(100, 100, 100, .5);
 }
@@ -528,10 +586,118 @@ footer nav a:hover{
     padding: 0px;
 }
 
+.spinning-image{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.spinning-image img{
+	-webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
 /* Makes the menu responsive on tiny screens JUST IN CASE----------- */
 @media only screen  and (max-width : 800px) {
+	.name{
+		font-size: 24px;
+		margin: 20px;
+	}
+
+	.intro-text{
+		font-size: 24px;
+		text-align: center;
+		line-height: 40px;
+		width: auto;
+	}
+
+	.more{
+		line-height: normal;
+	    margin-top: -5px;
+	}
+
+	.flex-container{
+		-ms-flex-direction: column;
+	    -webkit-box-orient: vertical;
+	    flex-direction: column; 
+
+	    padding: 30px;
+	    padding-bottom: 0px;
+
+	    width: 100vw;
+	}	
+
+	.bonus-section{
+		font-size: 24px;
+		padding: 0px;
+		width: 100%;
+	}
+
+	.flex-container > div {
+		padding-right: 0px;
+	}
+
+	.flex-container > div:first-child {
+	    padding-right: 0px;
+	    padding-left: 0px;
+	    margin-bottom: 30px;
+	}
+
+	.bonus-section img{
+		width: 96vw;
+		margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+
+	    display: none;
+	}
+
+	.bonus-section ul{
+		margin: 0px;
+		padding-left: 30px;
+	}
+
+
+
+	.intro-text strong{
+		font-weight: 300;
+	}
+
 	.intro-link-container {
-    	margin-left: 33px;
+    	margin-left: 5px;
+	}
+
+	.intro-link-container p{
+	    margin-bottom: 34px;
+    	margin-top: 33px;
+		padding: 0px;
+		display: block;
+	}
+
+	.icon{
+		margin-right: 45px;
+	}
+
+	.icon img{
+		width: 30px;
+	    margin-bottom: -5px;
+	}
+
+	#instagram img{
+		width: 26px;
+		margin-left: 20px;
+	}
+
+	.bio-link{
+		font-size: 24px;
+		text-align: center;
+		/*display: block;*/
 	}
 
 	.project-row{
@@ -584,7 +750,7 @@ footer nav a:hover{
 	}
 
 	.project{
-		margin-bottom: 85px;
+		margin-bottom: 125px;
 	}
 
 	/*==============================
