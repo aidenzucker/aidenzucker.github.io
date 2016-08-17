@@ -609,6 +609,10 @@ footer nav a:hover{
 		margin: 20px;
 	}
 
+	.intro-text-wrapper{
+		width: 325px;
+	}
+
 	.intro-text{
 		font-size: 24px;
 		text-align: center;
@@ -629,7 +633,7 @@ footer nav a:hover{
 	    padding: 30px;
 	    padding-bottom: 0px;
 
-	    width: 100vw;
+        width: 265px;
 	}	
 
 	.bonus-section{
@@ -661,12 +665,6 @@ footer nav a:hover{
 	.bonus-section ul{
 		margin: 0px;
 		padding-left: 30px;
-	}
-
-
-
-	.intro-text strong{
-		font-weight: 300;
 	}
 
 	.intro-link-container {
