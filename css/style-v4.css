@@ -109,7 +109,7 @@ body {
 }
 
 .more {
-	display: none;
+	/*display: none;*/
 	line-height: 21px;
 	width: 100vw;
 	display: absolute;
@@ -621,7 +621,7 @@ footer nav a:hover{
 	}
 
 	.more{
-		line-height: normal;
+		line-height: 40px;
 	    margin-top: -5px;
 	}
 
