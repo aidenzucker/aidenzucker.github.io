@@ -109,7 +109,7 @@ body {
 }
 
 .more {
-	/*display: none;*/
+	display: none;
 	line-height: 21px;
 	width: 100vw;
 	display: absolute;
