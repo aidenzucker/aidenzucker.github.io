@@ -159,7 +159,7 @@
 
 .pf-control-bar-button g,
 .pf-control-bar-pager g {
-	fill: rgba(0,0,0,1);
+	fill: rgba(0,0,0,.7);
 	-webkit-transition: fill 0.2s;
 	-moz-transition: fill 0.2s;
 	-o-transition: fill 0.2s;
