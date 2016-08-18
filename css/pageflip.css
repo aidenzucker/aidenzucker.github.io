@@ -95,7 +95,7 @@
 	-moz-transition: opacity 1s;
 	-o-transition: opacity 1s;
 	-ms-transition: opacity 1s;
-	color: #888;
+	color: rgba(0,0,0,.6); /*edited*/
 	font-size: 12px;
 }
 .pf-centered-buttons,
@@ -159,7 +159,7 @@
 
 .pf-control-bar-button g,
 .pf-control-bar-pager g {
-	fill: rgba(0,0,0,.7);
+	fill: rgba(0,0,0,.6);
 	-webkit-transition: fill 0.2s;
 	-moz-transition: fill 0.2s;
 	-o-transition: fill 0.2s;
@@ -177,7 +177,7 @@
 	fill: #888;
 }*/
 #pageflip-controls {
-	color: rgba(0,0,0,1);	
+	color: rgba(0,0,0,.6);	
 }
 
 /* Thumbnails layout/animation/hover fx ----------------------------------- */
