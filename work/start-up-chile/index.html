@@ -114,14 +114,19 @@
 			<div class='cover' data-background-file='pageflipdata/page27.jpg' data-page-label='t14'></div>
 			
 		</div>
+
+		<!-- Added control bar -->
+
+
 		<!-- start script needed to run pageflip -->
 		<script type="text/javascript">
 			var $pageflip = $('#pageflip');
 			$pageflip.pageflipInit( {
+				ControlbarFile: 'controlbar_svg.html',
 				PageWidth: 784,
 				PageHeight: 980,
 				Margin: 32,
-				MarginBottom: 32,
+				MarginBottom: 64,
 				PerformanceAware: true,
 				AutoScale: true,
 				FullScale: true,
