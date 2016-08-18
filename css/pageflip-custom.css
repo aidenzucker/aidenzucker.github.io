@@ -16,21 +16,24 @@ body {
 .pf-right-side,
 .pf-thumbnail-spread,
 .pf-thumbnail-page {
-	background: #888;
+	background: #888; /*This is default page background*/
 }
 #pageflip-controls,
 #pf-pagerin {
-	color: rgba(255,255,255,0.5);
+	/*color: rgba(255,255,255,0.5);*/
+	color: black;
 }
 .pf-control-bar-button g,
 .pf-control-bar-pager g {
-	fill: rgba(255,255,255,0.5);
+	/*fill: rgba(255,255,255,0.5);*/
+	color: black;
 }
 .pf-control-bar-button:not(.pf-disabled):hover g {
-	fill: #FFAA00;
+	fill: #34a1d6; /*sup blue*/
 }
 #pageflip-controls {
-	background: rgba(68,68,68,0.35);
+	/*background: rgba(68,68,68,0.35);*/
+	background: white;
 }
 .pf-hotspot {
 	position: absolute;
