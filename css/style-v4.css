@@ -487,6 +487,7 @@ footer nav a:hover{
 	letter-spacing: 2.58px;
 	text-transform: uppercase;
 
+	margin-top: 100px;
 	margin-bottom: -40px;
 	/*padding-top: 100px;*/
 }
@@ -530,6 +531,7 @@ footer nav a:hover{
 	display: flex;
 
 	margin: 50px;
+	margin-bottom: 100px;
 	width: 700px;
 
 	margin-left: auto;
