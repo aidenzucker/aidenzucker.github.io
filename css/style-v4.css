@@ -394,7 +394,7 @@ footer nav a:hover{
 }
 
 .cover-photo img{
-	max-width: 94vw;
+	width: 100vw;
 }
 
 .project-name{
