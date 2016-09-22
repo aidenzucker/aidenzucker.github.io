@@ -214,6 +214,7 @@ body {
 	display: flex;
 	width: 94vw;
 	padding-left: 3vw;
+	margin-bottom: 50px;
 }
 
 .project-row > div {
