@@ -659,6 +659,7 @@ footer nav a:hover{
 .juxtagraph-circle{
 	/*border: 1px solid red;*/
 	position: relative;
+	padding-bottom: 70px;
 }
 
 .juxtagraph-circle img{
@@ -699,6 +700,10 @@ footer nav a:hover{
 
 /* Makes the menu responsive on tiny screens JUST IN CASE----------- */
 @media only screen  and (max-width : 800px) {
+	#mobile-no-show{
+		display: none;
+	}
+
 	.name{
 		font-size: 24px;
 		margin: 20px;
@@ -907,6 +912,9 @@ footer nav a:hover{
 	.project-body ul {
 	    text-align: left;
 	    margin-left: 0px;
+	}
+	.juxtagraph-circle{
+		padding-bottom: 0px;
 	}
 
 	.juxtagraph-circle img{
