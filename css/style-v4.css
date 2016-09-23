@@ -15,7 +15,6 @@ body {
 	margin: 0px;
 }
 
-
 /*=====================================================================
   HEADER W/ NAME AND NAV
   =====================================================================*/
@@ -577,7 +576,7 @@ footer nav a:hover{
 	right: 0;
 
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 
 	padding-left: 25px;
 	padding-right: 25px;
@@ -639,11 +638,18 @@ footer nav a:hover{
 	border-bottom: 4px solid orange;
 }
 
-.big-link:hover{
+.big-link a:hover{
 	opacity: .8;
 }
 
 /*FOR SERENDIPITY.HOW*/
+
+.caption{
+	font-size: 14px;
+    margin-top: -30px;
+    opacity: 0.45;
+    padding-bottom: 50px;
+}
 
 .three-across img{
 	max-width: 900px;
