@@ -397,15 +397,55 @@ footer nav a:hover{
 	width: 100vw;
 }
 
-.project-name{
-	font-weight: 700;
-    font-size: 15.5px;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    color: lightgrey;
-    margin-top: 30px;
-	/*font-family: 'Roboto Mono';*/
+
+
+.name-and-date-wrapper{
+	position: relative;
+	margin: 16px;
+	margin-top: 60px;
 }
+
+.project-name{
+    font-size: 29px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.page-date{
+	display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    color: grey;
+    margin-left: 13px;
+    vertical-align: middle;
+}
+
+.project-blurb{
+	font-size: 17px;
+	color: grey;
+
+    max-width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.rule{
+	max-width: 90px;
+    border-bottom: black solid 2px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
+
+
 
 #pancakes-color{
 	color: #DAB83F;
@@ -430,20 +470,6 @@ footer nav a:hover{
 
 #start-up-chile-background{
 	background-color: #3490C5;
-}
-
-.project-blurb{
-	font-size: 38px;
-    max-width: 670px;
-    font-weight: 300;
-    margin-bottom: 80px;
-    padding-left: 25px;
-    padding-right: 25px;
-
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
 }
 
 .project-question{
