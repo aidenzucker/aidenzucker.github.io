@@ -590,8 +590,6 @@ footer nav a:hover{
 }
 
 
-
-
 .project-body{
 	font-size: 22px;
 	max-width: 600px;
@@ -615,6 +613,16 @@ footer nav a:hover{
 .project-body ul{
 	text-align: left;
     margin-left: 43px;
+}
+
+.project-body a{
+	text-decoration: none;
+    border-bottom: 2px solid lightgrey;
+    color: black;
+}
+
+.project-body a:hover{
+	opacity: .7;
 }
 
 .centered-image{
@@ -710,7 +718,8 @@ footer nav a:hover{
 
 .spinning-image{
 	text-align: center;
-	margin-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top: 90px;
 }
 
 .spinning-image img{
@@ -732,7 +741,19 @@ footer nav a:hover{
 
 	.name{
 		font-size: 24px;
-		margin: 20px;
+		margin: 7px;
+	}
+
+	.nav-bar{
+		margin-top: 3px;
+	}
+
+	.name-and-date-wrapper{
+		margin-top: 37px;
+	}
+
+	.rule{
+		margin-bottom: 0px; 
 	}
 
 	.intro-text-wrapper{
@@ -890,12 +911,12 @@ footer nav a:hover{
 	}
 
 	.project-name{
-		font-size: 17px;
+		/*font-size: 17px;*/
 	}
 
 	.project-blurb{
-		font-size: 23px;
-		max-width: 450px;
+		/*font-size: 23px;
+		max-width: 450px;*/
 	}
 
 	.project-question{
