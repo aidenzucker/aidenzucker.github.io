@@ -406,7 +406,7 @@ footer nav a:hover{
 }
 
 .project-name{
-    font-size: 29px;
+    font-size: 37px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -414,17 +414,18 @@ footer nav a:hover{
 .page-date{
 	display: inline-block;
     font-family: 'Roboto Mono', monospace;
-    font-size: 17px;
+    font-size: 22px;
     color: grey;
-    margin-left: 13px;
+    margin-left: 25px;
     vertical-align: middle;
+    margin-top: 3px;
 }
 
 .project-blurb{
-	font-size: 17px;
-	color: grey;
-
-    max-width: 320px;
+	font-size: 20px;
+    color: grey;
+    max-width: 359px;
+    
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -497,7 +498,6 @@ footer nav a:hover{
 
 .mono-subtitle{
 	font-family: 'Roboto Mono', monospace;
-	font-weight: 700;
 	font-size: 17px;
 	color: #8D8D8D;
 	letter-spacing: 2.58px;
@@ -507,7 +507,6 @@ footer nav a:hover{
 
 .label{
 	font-family: 'Roboto Mono', monospace;
-	font-weight: 700;
 	font-size: 15px;
 	color: #8D8D8D;
 	letter-spacing: 2.58px;
@@ -577,7 +576,7 @@ footer nav a:hover{
 }
 
 .big-number{
-	font-weight: 700;
+	/*font-weight: 700;*/
 	font-size: 30px;
 }
 
@@ -659,7 +658,6 @@ footer nav a:hover{
 }
 
 .big-link a{
-	font-weight: 700;
 	font-size: 40px;
 	text-decoration: none;
 	padding-bottom: 1px;
@@ -749,11 +747,34 @@ footer nav a:hover{
 	}
 
 	.name-and-date-wrapper{
+		margin: 16px;
 		margin-top: 37px;
+	}	
+
+	.project-name{
+	    font-size: 29px;
+	}
+
+	.page-date{
+	    font-size: 17px;
+	    margin-left: 13px;
+	}
+
+	.project-blurb{
+		font-size: 17px;
+	    max-width: 320px;
 	}
 
 	.rule{
-		margin-bottom: 0px; 
+		max-width: 90px;
+	    border-bottom: black solid 2px;
+	    margin-top: 20px;
+	    margin-bottom: 0px;
+	    
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
 	}
 
 	.intro-text-wrapper{
