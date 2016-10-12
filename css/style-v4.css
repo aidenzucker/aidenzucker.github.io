@@ -674,6 +674,41 @@ footer nav a:hover{
 	opacity: .8;
 }
 
+/*FOR TRAVEL PALS VIDEO*/
+.video-container{
+   	position: relative;
+	/*height: auto;*/
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    width: 1000px;
+    height: 563px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen  and (max-width : 1000px) {
+	.video-container{
+	   	position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		width: auto;
+		height: 0;
+	}
+}
+
 /*FOR SERENDIPITY.HOW*/
 
 .caption{
