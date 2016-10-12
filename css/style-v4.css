@@ -20,8 +20,6 @@ body {
   =====================================================================*/
 
 .header {
-	/*border: 1px solid red;*/
-	/*text-align: center;*/
 	display: inline-block;
 	text-align: center;
 	width: 100%;
@@ -221,11 +219,11 @@ body {
 	/*padding: 10px;*/
 }
 
-#p1, #p3{
+#p1, #p3, #p5{
 	padding-right: 25px;
 }
 
-#p2, #p4{
+#p2, #p4, #p6{
 	padding-left: 25px;
 }
 
@@ -270,7 +268,7 @@ body {
 
 .info-card{
 	background-color: white;
-	display: none;
+	/*display: none;*/
 	padding: 10px 13px 10px 13px;
 	width: 268px;
 	margin-top: 30px;
