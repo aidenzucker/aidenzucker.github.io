@@ -59,13 +59,13 @@ $(document).ready(function() {
         desc.html('A delicious exchange system designed to take people out of their daily routine');
       });
 
-      p4.mouseover(function() {
+      p5.mouseover(function() {
         title.html('Poetics of Space');
         date.html('2015');
         desc.html('Interdisciplinary book that juxtaposes Hiroshi Sugimoto & Gaston Bachelard');
       });
 
-      p5.mouseover(function() {
+      p4.mouseover(function() {
         title.html('Travel Pals');
         date.html('2014');
         desc.html('Making transportation for chronic hospital patients more human-centered');
