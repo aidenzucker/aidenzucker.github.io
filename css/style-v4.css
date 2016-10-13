@@ -922,18 +922,9 @@ iframe{
 		display: none;
 	}
 
-	/*.info-card{
-		display: inline-block;
-		text-align: left;
-		left: 0px;
-		bottom: -80px;
-		top: auto;
-
-		margin-left: auto;
-	    margin-right: auto;
-	    left: 0;
-	    right: 0;
-	}*/
+	.info-card{
+		display: none;
+	}
 
 	.info-card-mobile{
 		display: inline-block;
