@@ -910,11 +910,11 @@ iframe{
 		text-align: center;
 	}
 
-	#p1, #p3{
+	#p1, #p3, #p5{
 	padding-right: 0px;
 }
 
-	#p2, #p4{
+	#p2, #p4, #p6{
 	padding-left: 0px;
 	}
 
