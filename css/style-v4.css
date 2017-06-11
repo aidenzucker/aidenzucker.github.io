@@ -48,6 +48,10 @@
 	margin-top: 20px;
 }
 
+.new-link-container p{
+	display: inline-block;
+}
+
 #new-instagram img{
 	width: 20px;
 	margin-right: 50px;
@@ -830,6 +834,34 @@ iframe{
 
 /* Makes the menu responsive on tiny screens JUST IN CASE----------- */
 @media only screen  and (max-width : 800px) {
+	.hello{
+		display: block;
+		/*margin-bottom: 50px;*/
+	}
+
+	.new-name{
+		margin-top: 70px;
+		margin-bottom: 50px;
+	}
+
+	.new-link-container{
+		margin-top: 50px;
+	}
+
+	.new-link-container p{
+		display: block;
+		margin: 30px;
+	}
+
+	.new-bio-link{
+		margin-right: 0px;
+	}
+
+
+
+
+
+
 	#mobile-no-show{
 		display: none;
 	}
