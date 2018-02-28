@@ -4,6 +4,74 @@
   I HAVE NO IDEA WHAT I'M DOING! 
   =====================================================================*/
 
+.new-name {
+	text-align: center;
+	margin-top: 35vh;
+	font-size: 20px;
+}
+
+.new-name a {
+	text-decoration: none;
+	color: black;
+}
+
+.new-body{
+	text-align: center;
+	font-size: 20px;
+	color: #B7B7B7;
+}
+
+.new-body a{
+	border-bottom: 1px solid #B7B7B7;
+	color: #B7B7B7;
+	text-decoration: none;
+}
+
+.new-body a:hover{
+	opacity: .7;
+}
+
+.new-bio-link{
+	/*font-size: 20px;*/
+	border-bottom: 1px solid #B7B7B7;
+	text-decoration: none;
+	color: #3490C5;
+	margin-right: 50px;
+	position: relative;
+}
+
+.new-link-container .new-icon {
+	border-bottom: none;
+}
+
+.new-link-container{
+	margin-top: 20px;
+}
+
+.new-link-container p{
+	display: inline-block;
+}
+
+#new-instagram img{
+	width: 20px;
+	margin-right: 50px;
+
+}
+
+
+.new-icon img{
+	width: 25px;
+	margin-bottom: -4px;
+}
+
+.new-footer{
+	text-align: center;
+	color: #B7B7B7;
+	position: fixed;
+    bottom: 20px;
+    width: 100%;
+    font-size: 14px;
+}
 
 
 body {
@@ -766,6 +834,34 @@ iframe{
 
 /* Makes the menu responsive on tiny screens JUST IN CASE----------- */
 @media only screen  and (max-width : 800px) {
+	.hello{
+		display: block;
+		/*margin-bottom: 50px;*/
+	}
+
+	.new-name{
+		margin-top: 70px;
+		margin-bottom: 50px;
+	}
+
+	.new-link-container{
+		margin-top: 50px;
+	}
+
+	.new-link-container p{
+		display: block;
+		margin: 30px;
+	}
+
+	.new-bio-link{
+		margin-right: 0px;
+	}
+
+
+
+
+
+
 	#mobile-no-show{
 		display: none;
 	}
